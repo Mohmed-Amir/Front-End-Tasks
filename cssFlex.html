@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssFlex</title>
+    <style>
+        header,footer {
+            background-color: rgb(19, 16, 59);
+            text-align: center;
+            color: white;
+            font-size: large;
+            padding: 10px;
+            display: block;
+            margin-bottom: 0%;
+        }
+
+        .container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        p {
+            background-color: rgba(211, 211, 211, 0.425);
+            padding: 20px;
+            border-radius: 50px;
+            border: 3px solid rgb(189, 42, 31);
+            margin-bottom: 30px;
+        }
+
+        div {
+            margin: 15px;
+        }
+        img {
+             height: 300px;
+             border-radius: 20px;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+
+
+    <header>
+        <h3>Header of page</h3>
+      </header>
+
+    <div class="container">
+        <div class="car">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9jSHtrX7cqhWszqLfOhVuOG6ojlM-sasXYA&usqp=CAU">
+            <p>3,000,000</p>
+            <p> Bmw Car </p>
+        </div>
+
+
+        <div class="car">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoGrJWUWYMn56lwdFp2vVCqGzFh4NKIY3D_Q&usqp=CAU">
+            <p>4,000,000</p>
+            <p> Merceds Car </p>
+        </div>
+
+        <div class="car">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW0cGlApaVX-LyQ0Xd6WnYLL-Ukz-S2jkT7Q&usqp=CAU">
+            <p>2,000,000</p>
+            <p> Audi Car </p>
+        </div>
+    </div>
+
+
+
+
+    <footer class="container">
+        <h3>© 2021 Copyright</h3>
+    </footer>
+</body>
+
+
+
+
+
+
+
+</html>
